@@ -9,9 +9,7 @@ def create_edges():
             x, y, z = line.split()
             if x not in edges:
                 edges[x] = []
-                edges[x].append(y)
-            else:
-                edges[x].append(y)
+            edges[x].append(y)
     file.close()
     return edges
 
