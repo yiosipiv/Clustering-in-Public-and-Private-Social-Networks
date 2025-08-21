@@ -24,7 +24,6 @@ def create_vertices(edge):
     # Function 3
     # this will take a subdictionary of the output of Function 2, gather keys of each subdictionary
     vertices = []
-    print(edge)
     for key, value in edge.items():
         vertices.append(key)
     return vertices
